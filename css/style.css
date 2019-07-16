@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+.header-left {
+  font-size: 26px;
+  padding: 20px 10px;
+  color: white;
+  float: left;
+}
+
+.header-right li {
+  list-style: none;
+  float: right;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+}
+.header-right a:hover {
+  color: darkorange;
+}
+
+.main-nav {
+  align-content: flex-end;
+}
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  color: white;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper span {
+  color: rgb(255, 145, 0);
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  float: right;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.btn-wrapper {
+  margin: 50px 0;
+}
+
+.resume {
+  padding: 12px 24px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #239b76;
+  box-shadow: 0px 7px #1a7940;
+  text-decoration: none;
+  color: white;
+}
+.resume:active {
+  box-shadow: none;
+  top: 7px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 0px;
+}
