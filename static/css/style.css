@@ -10,6 +10,7 @@ body {
 .header-left {
   font-size: 26px;
   padding: 20px 10px;
+  font-family: "Montserrat", sans-serif;
   color: white;
   float: left;
 }
@@ -39,7 +40,7 @@ body {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url("../images/background.jpeg");
+  background-image: url("../../images/background.jpeg");
   background-size: cover;
   text-align: center;
 }
@@ -82,6 +83,11 @@ body {
   text-decoration: none;
   color: white;
 }
+.resume:hover {
+  background-color: #25a57f;
+  box-shadow: 0px 7px #1c8044;
+  transition: 0.5s;
+}
 .resume:active {
   box-shadow: none;
   top: 7px;
@@ -99,4 +105,70 @@ header {
 .logo {
   width: 124px;
   margin-top: 0px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.social-media {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #2c88c5;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+}
+.social-btn i {
+  line-height: 40px;
+  font-size: 20px;
+  transition: 0.2 linear;
+}
+
+.social-btn:hover {
+  background: #2c88c5;
+  color: #f1f1f1;
+}
+footer {
+  border-top: 5px solid #494949;
+  height: 32vh;
+  width: auto;
+  padding: 20px 50px;
+  background-color: #f7f7f7;
+}
+.about {
+  quotes: "\0022";
+  font-size: 24px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: bold;
+  color: #303030;
+}
+.about::before {
+  quotes: "	\0022";
+}
+.start {
+  font-size: 60px;
+  color: #494949;
+  font-family: "Passion One", cursive;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.end {
+  font-size: 60px;
+  color: #494949;
+  font-family: "Passion One", cursive;
+  direction: rtl;
 }

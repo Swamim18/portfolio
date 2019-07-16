@@ -3,12 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/fevicon.png" />
     <title>Swamim's Portfolio</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" href="static/css/responsive.css" />
+    <script src="https://kit.fontawesome.com/5ab86c2bf9.js"></script>
     <link
       rel="stylesheet"
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Passion+One&display=swap"
+      rel="stylesheet"
     />
   </head>
 
@@ -20,7 +34,7 @@
         </div>
         <div class="header-right">
           <ul class="main-nav">
-            <li>
+            <!--<li>
               <a class="web-design" href="#">OTHER PROJECTS</a>
             </li>
             <li>
@@ -28,6 +42,9 @@
             </li>
             <li>
               <a class="other-projects" href="#">WEB DESIGN</a>
+            </li>-->
+            <li>
+              <a class="about" href="./about"></a>
             </li>
           </ul>
         </div>
@@ -41,20 +58,56 @@
           <a
             href="./res/SIST-BE-ELECTRONICS AND TELECOMMUNICATION-3615044-SWAMIM SAIKIA.pdf"
             class="btn resume"
+            target="_blank"
             >Download Resume</a
           >
         </div>
+        <div class="social-media">
+          <a
+            class="social-btn"
+            href="https://www.facebook.com/swamim.saikia"
+            target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="social-btn"
+            href="https://www.linkedin.com/in/swamim-saikia/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="social-btn"
+            href="http://www.swamimsaikia18@gmail.com"
+            target="_blank"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a
+            class="social-btn"
+            href="https://github.com/Swamim18"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-    <script src="js/typed.js"></script>
-    <script>
-      var typed = new Typed(".typing", {
-        strings: ["DESIGNER.", "DEVELOPER."],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-      });
-    </script>
+    <footer>
+      <div class="footer-wrapper">
+        <p class="about">
+          <span class="start">“</span> I am a developer with passion for art. I
+          am looking to use my design and development skills in a rewarding job
+          with a fast opportunity for growth.<span class="end">"</span>
+        </p>
+      </div>
+    </footer>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <script src="static/js/typed.js"></script>
+  <script>
+    var typed = new Typed(".typing", {
+      strings: ["DESIGNER.", "DEVELOPER."],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true
+    });
+  </script>
 </html>
